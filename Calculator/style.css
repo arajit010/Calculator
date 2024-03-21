@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.outline{
+    border: 3px solid #ffffff;
+    padding: 5px;
+    border-radius: 15px;
+    background: #1e1e1e;
+}
+.inline{
+    border: 1px solid #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    background: #1e1e1e;
+}
+.outline-input{
+    border: 1px solid #979494;
+    padding: 0px;
+    border-radius: 10px;
+    background: #1e1e1e;
+}
+input{
+    width: 315px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background: transparent;
+    border: 1px solid #636363;
+    border-radius: 5px;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+input::placeholder{
+    color: #ffffff;
+}
+.outline-key{
+    width: 335px;
+    border: 1px solid #979494;
+    padding: 0px;
+    border-radius: 15px;
+    background: #1e1e1e;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: #374872;
+    border: 3.2px solid #354877;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6), inset 10px 10px 10px rgba(7, 14, 32, 0.2);
+    cursor: pointer;
+}
+.equalBtn{
+    background-color: #6bea10;
+    border: 3.2px solid #6bea10;
+    color: #1e1e1e;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6), inset 10px 10px 10px rgba(56, 27, 3, 0.2);
+}
+.operator{
+    color: #6bea10;
+}
